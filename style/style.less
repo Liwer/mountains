@@ -8,8 +8,9 @@
   box-sizing: border-box;
   text-decoration: none;
 }
-.right {
-  float: right;
+
+.left {
+  float: left;
 }
 
 .innerWrapper {
@@ -168,5 +169,191 @@ header {
     text-transform: uppercase;
     font-family: @lato;
     text-align: center;
+  }
+  .description {
+    margin-bottom: 66px;
+    padding-bottom: 250px;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(201, 189, 201, 0.8);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(201, 189, 201, 0.8);
+    box-shadow: 0px 0px 20px 0px rgba(201, 189, 201, 0.8);
+    margin-top: 50px;
+    .love {
+      margin-left: 79px;
+      .left {
+        position: relative;
+        background-size: cover;
+        height: 250px;
+        width: 250px;
+        background-image: url("../images/post1Bg.png");
+        img {
+          padding: 100px 96px 0;
+          width: 252px;
+        }
+        .triangular {
+          position: absolute;
+          right: 0;
+          top: 15%;
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-width: 7.5px 10px 7.5px 0;
+          border-color: transparent @white transparent transparent;
+        }
+      }
+      .right {
+        float: left;
+        height: 250px;
+        width: 250px;
+        h5 {
+          text-transform: uppercase;
+          color: @blue;
+          text-align: center;
+          font-family: @lato;
+          letter-spacing: 2px;
+          font-size: 9px;
+          padding: 25px;
+        }
+        h4 {
+          text-transform: uppercase;
+          text-align: center;
+          font-family: @lato;
+          letter-spacing: 2px;
+          font-size: 11px;
+        }
+        p {
+          padding: 20px 0 25px;
+          color: @darkGray;
+          text-align: center;
+          font-size: 14px;
+        }
+        span.number {
+          display: block;
+          font-style: italic;
+          text-align: center;
+          font-size: 12px;
+        }
+      }
+    }
+    .tree {
+      float: left;
+      margin-left: 79px;
+      .left {
+        float: left;
+        height: 250px;
+        width: 250px;
+        h5 {
+          text-transform: uppercase;
+          color: @blue;
+          text-align: center;
+          font-family: @lato;
+          letter-spacing: 2px;
+          font-size: 9px;
+          padding: 25px;
+        }
+        h4 {
+          text-transform: uppercase;
+          text-align: center;
+          font-family: @lato;
+          letter-spacing: 2px;
+          font-size: 11px;
+          span.lineThrought {
+            text-decoration: line-through;
+          }
+        }
+        p {
+          padding: 20px 0 25px;
+          color: @darkGray;
+          text-align: center;
+          font-size: 14px;
+        }
+        span.number {
+          display: block;
+          font-style: italic;
+          text-align: center;
+          font-size: 12px;
+        }
+      }
+      .right {
+        float: right;
+        position: relative;
+        background-size: cover;
+        height: 250px;
+        width: 250px;
+        background-image: url("../images/post3Bg.png");
+        img {
+          padding: 100px 96px 0;
+          width: 252px;
+        }
+        .triangular {
+          position: absolute;
+          top: 15%;
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-width: 7.5px 0 7.5px 10px;
+          border-color: transparent transparent transparent @white;
+        }
+      }
+    }
+    .water {
+      .top {
+        background-image: url("../images/post2Bg.png");
+        display: inline-block;
+        position: relative;
+        background-size: cover;
+        height: 250px;
+        width: 250px;
+        img {
+          padding: 100px 96px 0;
+          width: 252px;
+        }
+        .triangular {
+          position: absolute;
+          bottom: 0;
+          left: 10%;
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-width: 0 7.5px 10px 7.5px;
+          border-color: transparent transparent @white transparent;
+        }
+      }
+      .bottom {
+        float: left;
+        height: 250px;
+        width: 250px;
+        h5 {
+          text-transform: uppercase;
+          color: @blue;
+          text-align: center;
+          font-family: @lato;
+          letter-spacing: 2px;
+          font-size: 9px;
+          padding: 25px;
+        }
+        h4 {
+          text-transform: uppercase;
+          text-align: center;
+          font-family: @lato;
+          letter-spacing: 2px;
+          font-size: 11px;
+          span.lineThrought {
+            text-decoration: line-through;
+          }
+        }
+        p {
+          padding: 20px 0 25px;
+          color: @darkGray;
+          text-align: center;
+          font-size: 14px;
+        }
+        span.number {
+          display: block;
+          font-style: italic;
+          text-align: center;
+          font-size: 12px;
+        }
+      }
+    }
   }
 }
