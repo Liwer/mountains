@@ -1,0 +1,529 @@
+/* line 5, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\000035}}
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+}
+/* line 12, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\0000312}}
+.left {
+  float: left;
+}
+/* line 16, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\0000316}}
+.innerWrapper {
+  margin: 0 auto;
+  max-width: 900px;
+}
+/* line 21, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\0000321}}
+header {
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+/* line 29, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\0000329}}
+header ul {
+  list-style: none;
+  display: inline-block;
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+/* line 34, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\0000334}}
+header ul li {
+  float: left;
+  margin: 0px 19px;
+}
+/* line 37, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\0000337}}
+header ul li a {
+  text-transform: uppercase;
+  color: #9daeb6;
+  font-size: 12px;
+  font-weight: 600;
+  padding-bottom: 7px;
+}
+/* line 43, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\0000343}}
+header ul li a:hover {
+  border-bottom: 2px solid #36aeea;
+}
+/* line 49, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\0000349}}
+header .call {
+  float: right;
+  padding: 9px 43px;
+  border-radius: 5px;
+  text-transform: capitalize;
+  border: 2px solid #36aeea;
+  color: #36aeea;
+}
+/* line 58, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\0000358}}
+.top {
+  background-size: cover;
+  width: 100%;
+  background-image: url("../images/headerBg.png");
+}
+/* line 62, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\0000362}}
+.top .travel {
+  padding: 15px 20px;
+  width: 700px;
+  margin: 161px 100px 83px;
+  border: 2px solid #ffffff;
+  display: inline-block;
+}
+/* line 68, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\0000368}}
+.top .travel h2 {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: 'Lato', sans-serif;
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+/* line 74, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\0000374}}
+.top .travel h2 span {
+  color: #56c7ff;
+  text-transform: none;
+  font-family: 'Dancing Script', cursive;
+}
+/* line 80, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\0000380}}
+.top .travel p {
+  color: #9daeb6;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+}
+/* line 85, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\0000385}}
+.top .travel a {
+  color: #ffffff;
+  border: 1px solid #56c7ff;
+  padding: 10px 40px;
+  display: inline-block;
+  margin-top: 15px;
+  background-color: #56c7ff;
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: 'Lato', sans-serif;
+}
+/* line 99, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\0000399}}
+.blog {
+  background-color: #f6f4f4;
+}
+/* line 101, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\00003101}}
+.blog .contant {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background-image: url("../images/blogBg.png");
+  background-size: cover;
+}
+/* line 108, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\00003108}}
+.blog .contant .about {
+  padding-top: 150px;
+  width: 37%;
+  float: left;
+}
+/* line 112, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\00003112}}
+.blog .contant .about hr {
+  height: 6px;
+  width: 81px;
+  background: url(../images/hr.png) repeat-x 0 0;
+  border: 0;
+}
+/* line 116, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\00003116}}
+.blog .contant .about h4 {
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  padding: 25px 0 20px;
+  letter-spacing: 3px;
+}
+/* line 123, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\00003123}}
+.blog .contant .about p {
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  color: #9daeb6;
+  letter-spacing: 1px;
+}
+/* line 130, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\00003130}}
+.blog .contant .about a {
+  color: #ffffff;
+  border: 1px solid #56c7ff;
+  padding: 10px 40px;
+  display: inline-block;
+  margin-top: 15px;
+  background-color: #56c7ff;
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: 'Lato', sans-serif;
+}
+/* line 143, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\00003143}}
+.blog .contant .blog.right {
+  float: left;
+  width: 60%;
+}
+/* line 146, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\00003146}}
+.blog .contant .blog.right img.selfie {
+  position: absolute;
+  width: 545px;
+  bottom: 134px;
+  left: 517px;
+}
+/* line 152, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\00003152}}
+.blog .contant .blog.right img.foots {
+  position: absolute;
+  z-index: 1;
+  width: 250px;
+  top: 221px;
+  right: 243px;
+}
+/* line 163, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\00003163}}
+.journal hr {
+  height: 6px;
+  width: 81px;
+  background: url(../images/hr.png) repeat-x 0 0;
+  border: 0;
+  margin: 50px 407px 30px;
+}
+/* line 168, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\00003168}}
+.journal h3 {
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+/* line 173, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\00003173}}
+.journal .description {
+  margin-bottom: 66px;
+  padding-bottom: 250px;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(201, 189, 201, 0.8);
+  box-shadow: 0px 0px 20px 0px rgba(201, 189, 201, 0.8);
+  margin-top: 50px;
+}
+/* line 180, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\00003180}}
+.journal .description .love {
+  margin-left: 79px;
+}
+/* line 182, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\00003182}}
+.journal .description .love .left {
+  position: relative;
+  background-size: cover;
+  height: 250px;
+  width: 250px;
+  background-image: url("../images/post1Bg.png");
+}
+/* line 188, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\00003188}}
+.journal .description .love .left img {
+  padding: 100px 96px 0;
+  width: 252px;
+}
+/* line 192, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\00003192}}
+.journal .description .love .left .triangular {
+  position: absolute;
+  right: 0;
+  top: 15%;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 7.5px 10px 7.5px 0;
+  border-color: transparent #ffffff transparent transparent;
+}
+/* line 203, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\00003203}}
+.journal .description .love .right {
+  float: left;
+  height: 250px;
+  width: 250px;
+}
+/* line 207, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\00003207}}
+.journal .description .love .right h5 {
+  text-transform: uppercase;
+  color: #36aeea;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 2px;
+  font-size: 9px;
+  padding: 25px;
+}
+/* line 216, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\00003216}}
+.journal .description .love .right h4 {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 2px;
+  font-size: 11px;
+}
+/* line 223, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\00003223}}
+.journal .description .love .right p {
+  padding: 20px 0 25px;
+  color: #777777;
+  text-align: center;
+  font-size: 14px;
+}
+/* line 229, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\00003229}}
+.journal .description .love .right span.number {
+  display: block;
+  font-style: italic;
+  text-align: center;
+  font-size: 12px;
+}
+/* line 237, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\00003237}}
+.journal .description .tree {
+  float: left;
+  margin-left: 79px;
+}
+/* line 240, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\00003240}}
+.journal .description .tree .left {
+  float: left;
+  height: 250px;
+  width: 250px;
+}
+/* line 244, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\00003244}}
+.journal .description .tree .left h5 {
+  text-transform: uppercase;
+  color: #36aeea;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 2px;
+  font-size: 9px;
+  padding: 25px;
+}
+/* line 253, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\00003253}}
+.journal .description .tree .left h4 {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 2px;
+  font-size: 11px;
+}
+/* line 259, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\00003259}}
+.journal .description .tree .left h4 span.lineThrought {
+  text-decoration: line-through;
+}
+/* line 263, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\00003263}}
+.journal .description .tree .left p {
+  padding: 20px 0 25px;
+  color: #777777;
+  text-align: center;
+  font-size: 14px;
+}
+/* line 269, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\00003269}}
+.journal .description .tree .left span.number {
+  display: block;
+  font-style: italic;
+  text-align: center;
+  font-size: 12px;
+}
+/* line 276, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\00003276}}
+.journal .description .tree .right {
+  float: right;
+  position: relative;
+  background-size: cover;
+  height: 250px;
+  width: 250px;
+  background-image: url("../images/post3Bg.png");
+}
+/* line 283, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\00003283}}
+.journal .description .tree .right img {
+  padding: 100px 96px 0;
+  width: 252px;
+}
+/* line 287, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\00003287}}
+.journal .description .tree .right .triangular {
+  position: absolute;
+  top: 15%;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 7.5px 0 7.5px 10px;
+  border-color: transparent transparent transparent #ffffff;
+}
+/* line 299, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\00003299}}
+.journal .description .water .top {
+  background-image: url("../images/post2Bg.png");
+  display: inline-block;
+  position: relative;
+  background-size: cover;
+  height: 250px;
+  width: 250px;
+}
+/* line 306, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\00003306}}
+.journal .description .water .top img {
+  padding: 100px 96px 0;
+  width: 252px;
+}
+/* line 310, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\00003310}}
+.journal .description .water .top .triangular {
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 7.5px 10px 7.5px;
+  border-color: transparent transparent #ffffff transparent;
+}
+/* line 321, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\00003321}}
+.journal .description .water .bottom {
+  float: left;
+  height: 250px;
+  width: 250px;
+}
+/* line 325, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\00003325}}
+.journal .description .water .bottom h5 {
+  text-transform: uppercase;
+  color: #36aeea;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 2px;
+  font-size: 9px;
+  padding: 25px;
+}
+/* line 334, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\00003334}}
+.journal .description .water .bottom h4 {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 2px;
+  font-size: 11px;
+}
+/* line 340, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\00003340}}
+.journal .description .water .bottom h4 span.lineThrought {
+  text-decoration: line-through;
+}
+/* line 344, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\00003344}}
+.journal .description .water .bottom p {
+  padding: 20px 0 25px;
+  color: #777777;
+  text-align: center;
+  font-size: 14px;
+}
+/* line 350, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\00003350}}
+.journal .description .water .bottom span.number {
+  display: block;
+  font-style: italic;
+  text-align: center;
+  font-size: 12px;
+}
+/* line 360, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\00003360}}
+.order {
+  padding: 179px 0;
+  background-image: url("../images/formBg.png");
+  background-size: cover;
+}
+/* line 364, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\00003364}}
+.order hr {
+  height: 6px;
+  width: 81px;
+  background: url(../images/hr.png) repeat-x 0 0;
+  border: 0;
+}
+/* line 367, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\00003367}}
+.order h4 {
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  padding: 25px 0 10px;
+  letter-spacing: 1px;
+}
+/* line 373, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\00003373}}
+.order p {
+  font-family: 'Lato', sans-serif;
+  color: #9daeb6;
+  letter-spacing: 1px;
+  padding-bottom: 15px;
+  font-size: 15px;
+}
+/* line 381, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\00003381}}
+.order form .name {
+  border: none;
+  padding: 10px 15px;
+  float: left;
+}
+/* line 386, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\00003386}}
+.order form .phone {
+  border-radius: 0 4px 4px 0;
+  border: none;
+  padding: 10px 15px;
+  display: block;
+  float: left;
+}
+/* line 393, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\00003393}}
+.order form .submit {
+  text-transform: uppercase;
+  border: none;
+  padding: 10px;
+  color: #ffffff;
+  background-color: #36aeea;
+  cursor: pointer;
+}
+/* line 402, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\00003402}}
+.order i {
+  color: #36aeea;
+  margin-top: 20px;
+  margin-right: 15px;
+}
+/* line 407, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/li\/acad\/mountains\/mountains\/style\/style\.less}line{font-family:\00003407}}
+.order span {
+  color: #36aeea;
+  font-size: 14px;
+}
