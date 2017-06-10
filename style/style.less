@@ -473,6 +473,162 @@ header {
   }
 }
 
+
+.scheme {
+   position: relative;
+   hr {
+     .hr;
+   }
+   h3 {
+     text-align: center;
+     font-family: 'Open Sans', sans-serif;
+     text-transform: uppercase;
+     font-weight: 700;
+   }
+   .dashedLine {
+     z-index: -1;
+     width: 681px;
+     height: 119px;
+     padding: 20px;
+     margin: 10px;
+     position: absolute;
+     top: 100px;
+     left: 590px;
+     background-image: -webkit-linear-gradient(left, #F0F3F6 90%, transparent 50%),none,-webkit-linear-gradient(top, #F0F3F6 90%, transparent 50%),none;
+     background-image: linear-gradient(to right, #F0F3F6 90%, transparent 50%),none,linear-gradient(to bottom, #F0F3F6 90%, transparent 50%),none;
+     background-position: left top, left bottom, left top, right top;
+     background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+     background-size: 60px 2px, 0px 0px, 2px 60px, 0px 0px;
+   }
+  ul {
+    counter-reset: scheme-count;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 25px 10px 0 10px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    li{
+      display: inline;
+      max-width: 200px;
+
+        &:before {
+          z-index: 1;
+          counter-increment: scheme-count;
+          width: 28px;
+          height: 30px;
+          border-radius: 50px;
+          border-style: solid;
+          border-width: 3px;
+          border-color: @blue;
+          content: counter(scheme-count);
+          font-family: @roboto;
+          font-weight: 900;
+          font-style: normal;
+          font-size: 16px;
+          color: @blue;
+          display: block;
+          margin: auto;
+          padding-top: 14px;
+          padding-left: 18px;
+          top: -27px;
+          left: calc(25%);
+          margin-bottom: 58px;
+          background-color: @white;
+      }
+      p {
+        font-size: 14px;
+        text-align: center;
+        color: @grey;
+        font-family: @roboto;
+        padding: 27px 0 40px;
+        span {
+          font-weight: 700;
+          color: @black;
+        }
+      }
+    }
+  }
+}
+.travelWithUs {
+  background-image: url("../images/travelWithUsBg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  hr {
+    .hr;
+    margin-left: 906px;
+    padding-top: 30px;
+  }
+  h3 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 34px;
+  }
+  .travelWrapper {
+    justify-content: space-between;
+    display: flex;
+    align-content: center;
+    margin: 0 auto;
+    width: 1140px;
+    h4 {
+      text-transform: capitalize;
+      color: @white;
+    }
+    i {
+      color: @white;
+    }
+    p {
+      color: @white;
+    }
+    span.left {
+      float: left;
+    }
+    span.right {
+      float: right;
+    }
+    .carpathian {
+
+      background-image: url("../images/carpathianBg.png");
+      background-size: cover;
+      margin: 10px 10px;
+      width: 200px;
+      height: 380px;
+    }.alps {
+
+      background-image: url("../images/alpsBg.png");
+      background-size: cover;
+      margin: 10px 10px;
+      width: 200px;
+      height: 380px;
+    }.pyrenees {
+
+      background-image: url("../images/pyreneesBg.png");
+      background-size: cover;
+      margin: 10px 10px;
+      width: 200px;
+      height: 380px;
+    }.rocky {
+
+      background-image: url("../images/rockyBg.png");
+      background-size: cover;
+      margin: 10px 10px;
+      width: 200px;
+      height: 380px;
+    }.kavkaz {
+
+      background-image: url("../images/kavkazBg.png");
+      background-size: cover;
+      margin: 10px 10px;
+      width: 200px;
+      height: 380px;
+    }
+  }
+}
+
+
 @media screen and (max-width: 1920px) {
   .top {
     background-size: cover;
@@ -539,7 +695,7 @@ header {
     }
     form {
       position: relative;
-      padding-bottom: 35px;
+      padding-bottom: 36px;
       .name {
         border: none;
         padding: 10px 15px;
@@ -581,4 +737,3 @@ header {
     }
   }
 }
-
