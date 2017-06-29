@@ -9,7 +9,6 @@
   text-decoration: none;
 }
 
-
 .left {
   float: left;
 }
@@ -648,8 +647,9 @@ footer {
       }
     }
     .formWrapper {
+      padding-bottom: 232px;
       width: 39%;
-      margin-left: 331px;
+      margin-left: 380px;
       .contact {
         border-radius: 7px;
         background-image: url("../images/callback-bg.png");
@@ -686,131 +686,48 @@ footer {
         }
       }
     }
-    span {
-
-    }
-    ul {
-
+  }
+  .info {
+    background-color: @darkBlue;
+    height: 85px;
+    width: 100% px;
+    padding: 20px;
+    .infoWrapper {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      span.left {
+        font-family: @openSans;
+        color: @veryLightBlue;
+      }
+      ul {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        li {
+          padding: 3px;
+        }
+      }
+      span.right {
+        font-family: @openSans;
+        color: @veryLightBlue;
+        font-weight: 700;
+      }
     }
   }
 }
 
 
-//@media screen and (max-width: 1920px) {
-//  .top {
-//    background-size: cover;
-//    width: 100%;
-//    background-image: url("../images/headerBg.png");
-//    .travel {
-//      position: relative;
-//      margin: 287px -47px 214px;
-//      display: inline-block;
-//      h2 {
-//        text-transform: uppercase;
-//        color: @white;
-//        font-family: @openSans;
-//        font-size: 35px;
-//        letter-spacing: 2px;
-//        span {
-//          position: absolute;
-//          color: @liteBlue;
-//          text-transform: none;
-//          font-family: @Leckerli;
-//          bottom: 104px;
-//        }
-//      }
-//      p {
-//        color: @grey;
-//        font-family: @openSans;
-//        font-size: 14px;
-//        padding-top: 20px;
-//      }
-//      a {
-//        color: @white;
-//        border: 1px solid @liteBlue;
-//        padding: 10px 40px;
-//        display: inline-block;
-//        margin-top: 15px;
-//        background-color: @liteBlue;
-//        border-radius: 2px;
-//        text-transform: uppercase;
-//        font-size: 12px;
-//        font-family: @openSans;
-//      }
-//    }
-//  }
-//
-//  .order {
-//    padding: 179px 0;
-//    background-image: url("../images/formBg.png");
-//    background-size: cover;
-//    hr {
-//      .hr;
-//    }
-//    h4 {
-//      font-family: @openSans;
-//      text-transform: uppercase;
-//      padding: 25px 0 10px;
-//      letter-spacing: 1px;
-//    }
-//    p {
-//      font-family: @openSans;
-//      color: @grey;
-//      letter-spacing: 1px;
-//      padding-bottom: 15px;
-//      font-size: 15px;
-//    }
-//    form {
-//      position: relative;
-//      padding-bottom: 36px;
-//      .name {
-//        border: none;
-//        padding: 10px 15px;
-//        float: left;
-//      }
-//      .phone {
-//        border-radius: 0 4px 4px 0;
-//        border: none;
-//        padding: 10px 15px;
-//        display: block;
-//        float: left;
-//        padding-right: 113px;
-//      }
-//      .submit {
-//        position: absolute;
-//        text-transform: uppercase;
-//        border: none;
-//        padding: 10px 29px;
-//        color: @white;
-//        background-color: @blue;
-//        cursor: pointer;
-//        left: 373px;
-//        top: 1px;
-//        border-radius: 2px;
-//        font-size: 9px;
-//        font-weight: 600;
-//        letter-spacing: 1px;
-//        font-family: @openSans;
-//      }
-//    }
-//    i {
-//      color: @blue;
-//      margin-top: 20px;
-//      margin-right: 15px;
-//    }
-//    span {
-//      color: @blue;
-//      font-size: 14px;
-//    }
-//  }
-//}
 @media screen and (max-width: 1366px) {
   .top {
     background-size: cover;
     width: 100%;
     background-image: url("../images/headerBg.png");
     .travel {
-      padding: 15px 20px;
+      padding: 3px 20px;
       width: 700px;
       margin: 161px 100px 83px;
       display: inline-block;
