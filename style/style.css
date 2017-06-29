@@ -209,13 +209,17 @@ header .call {
 }
 /* line 167, style.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003167}}
-.journal h3 {
-  text-transform: uppercase;
-  font-family: 'Open Sans', sans-serif;
+.journal h1 {
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-bottom: 60px;
+  font-size: 30px;
+  letter-spacing: 2px;
 }
-/* line 172, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003172}}
+/* line 170, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003170}}
 .journal .description {
   margin-bottom: 66px;
   padding-bottom: 250px;
@@ -223,13 +227,13 @@ header .call {
   box-shadow: 0px 0px 20px 0px rgba(201, 189, 201, 0.8);
   margin-top: 50px;
 }
-/* line 179, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003179}}
+/* line 177, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003177}}
 .journal .description .love {
   margin-left: 79px;
 }
-/* line 181, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003181}}
+/* line 179, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003179}}
 .journal .description .love .left {
   position: relative;
   background-size: cover;
@@ -237,14 +241,14 @@ header .call {
   width: 250px;
   background-image: url("../images/post1Bg.png");
 }
-/* line 187, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003187}}
+/* line 185, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003185}}
 .journal .description .love .left img {
   padding: 100px 96px 0;
   width: 252px;
 }
-/* line 191, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003191}}
+/* line 189, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003189}}
 .journal .description .love .left .triangular {
   position: absolute;
   right: 0;
@@ -255,15 +259,15 @@ header .call {
   border-width: 7.5px 10px 7.5px 0;
   border-color: transparent #ffffff transparent transparent;
 }
-/* line 202, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003202}}
+/* line 200, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003200}}
 .journal .description .love .right {
   float: left;
   height: 250px;
   width: 250px;
 }
-/* line 206, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003206}}
+/* line 204, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003204}}
 .journal .description .love .right h5 {
   text-transform: uppercase;
   color: #36aeea;
@@ -273,8 +277,8 @@ header .call {
   font-size: 9px;
   padding: 25px;
 }
-/* line 215, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003215}}
+/* line 213, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003213}}
 .journal .description .love .right h4 {
   text-transform: uppercase;
   text-align: center;
@@ -282,37 +286,37 @@ header .call {
   letter-spacing: 2px;
   font-size: 11px;
 }
-/* line 222, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003222}}
+/* line 220, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003220}}
 .journal .description .love .right p {
   padding: 20px 0 25px;
   color: #777777;
   text-align: center;
   font-size: 14px;
 }
-/* line 228, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003228}}
+/* line 226, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003226}}
 .journal .description .love .right span.number {
   display: block;
   font-style: italic;
   text-align: center;
   font-size: 12px;
 }
-/* line 236, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003236}}
+/* line 234, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003234}}
 .journal .description .tree {
   float: left;
   margin-left: 79px;
 }
-/* line 239, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003239}}
+/* line 237, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003237}}
 .journal .description .tree .left {
   float: left;
   height: 250px;
   width: 250px;
 }
-/* line 243, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003243}}
+/* line 241, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003241}}
 .journal .description .tree .left h5 {
   text-transform: uppercase;
   color: #36aeea;
@@ -322,8 +326,8 @@ header .call {
   font-size: 9px;
   padding: 25px;
 }
-/* line 252, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003252}}
+/* line 250, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003250}}
 .journal .description .tree .left h4 {
   text-transform: uppercase;
   text-align: center;
@@ -331,29 +335,29 @@ header .call {
   letter-spacing: 2px;
   font-size: 11px;
 }
-/* line 258, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003258}}
+/* line 256, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003256}}
 .journal .description .tree .left h4 span.lineThrought {
   text-decoration: line-through;
 }
-/* line 262, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003262}}
+/* line 260, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003260}}
 .journal .description .tree .left p {
   padding: 20px 0 25px;
   color: #777777;
   text-align: center;
   font-size: 14px;
 }
-/* line 268, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003268}}
+/* line 266, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003266}}
 .journal .description .tree .left span.number {
   display: block;
   font-style: italic;
   text-align: center;
   font-size: 12px;
 }
-/* line 275, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003275}}
+/* line 273, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003273}}
 .journal .description .tree .right {
   float: right;
   position: relative;
@@ -362,14 +366,14 @@ header .call {
   width: 250px;
   background-image: url("../images/post3Bg.png");
 }
-/* line 282, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003282}}
+/* line 280, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003280}}
 .journal .description .tree .right img {
   padding: 100px 96px 0;
   width: 252px;
 }
-/* line 286, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003286}}
+/* line 284, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003284}}
 .journal .description .tree .right .triangular {
   position: absolute;
   top: 15%;
@@ -379,8 +383,8 @@ header .call {
   border-width: 7.5px 0 7.5px 10px;
   border-color: transparent transparent transparent #ffffff;
 }
-/* line 298, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003298}}
+/* line 296, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003296}}
 .journal .description .water .top {
   background-image: url("../images/post2Bg.png");
   display: inline-block;
@@ -389,14 +393,14 @@ header .call {
   height: 250px;
   width: 250px;
 }
-/* line 305, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003305}}
+/* line 303, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003303}}
 .journal .description .water .top img {
   padding: 100px 96px 0;
   width: 252px;
 }
-/* line 309, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003309}}
+/* line 307, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003307}}
 .journal .description .water .top .triangular {
   position: absolute;
   bottom: 0;
@@ -407,15 +411,15 @@ header .call {
   border-width: 0 7.5px 10px 7.5px;
   border-color: transparent transparent #ffffff transparent;
 }
-/* line 320, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003320}}
+/* line 318, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003318}}
 .journal .description .water .bottom {
   float: left;
   height: 250px;
   width: 250px;
 }
-/* line 324, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003324}}
+/* line 322, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003322}}
 .journal .description .water .bottom h5 {
   text-transform: uppercase;
   color: #36aeea;
@@ -425,8 +429,8 @@ header .call {
   font-size: 9px;
   padding: 25px;
 }
-/* line 333, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003333}}
+/* line 331, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003331}}
 .journal .description .water .bottom h4 {
   text-transform: uppercase;
   text-align: center;
@@ -434,52 +438,52 @@ header .call {
   letter-spacing: 2px;
   font-size: 11px;
 }
-/* line 339, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003339}}
+/* line 337, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003337}}
 .journal .description .water .bottom h4 span.lineThrought {
   text-decoration: line-through;
 }
-/* line 343, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003343}}
+/* line 341, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003341}}
 .journal .description .water .bottom p {
   padding: 20px 0 25px;
   color: #777777;
   text-align: center;
   font-size: 14px;
 }
-/* line 349, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003349}}
+/* line 347, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003347}}
 .journal .description .water .bottom span.number {
   display: block;
   font-style: italic;
   text-align: center;
   font-size: 12px;
 }
-/* line 359, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003359}}
+/* line 357, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003357}}
 .order {
   padding: 179px 0;
   background-image: url("../images/formBg.png");
   background-size: cover;
 }
-/* line 363, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003363}}
+/* line 361, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003361}}
 .order hr {
   height: 6px;
   width: 81px;
   background: url(../images/hr.png) repeat-x 0 0;
   border: 0;
 }
-/* line 366, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003366}}
+/* line 364, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003364}}
 .order h4 {
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   padding: 25px 0 10px;
   letter-spacing: 1px;
 }
-/* line 372, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003372}}
+/* line 370, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003370}}
 .order p {
   font-family: 'Open Sans', sans-serif;
   color: #9daeb6;
@@ -487,15 +491,15 @@ header .call {
   padding-bottom: 15px;
   font-size: 15px;
 }
-/* line 380, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003380}}
+/* line 378, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003378}}
 .order form .name {
   border: none;
   padding: 10px 15px;
   float: left;
 }
-/* line 385, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003385}}
+/* line 383, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003383}}
 .order form .phone {
   border-radius: 0 4px 4px 0;
   border: none;
@@ -503,8 +507,8 @@ header .call {
   display: block;
   float: left;
 }
-/* line 392, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003392}}
+/* line 390, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003390}}
 .order form .submit {
   text-transform: uppercase;
   border: none;
@@ -513,44 +517,44 @@ header .call {
   background-color: #36aeea;
   cursor: pointer;
 }
-/* line 401, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003401}}
+/* line 399, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003399}}
 .order i {
   color: #36aeea;
   margin-top: 20px;
   margin-right: 15px;
 }
-/* line 406, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003406}}
+/* line 404, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003404}}
 .order span {
   color: #36aeea;
   font-size: 14px;
 }
-/* line 411, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003411}}
+/* line 409, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003409}}
 .order {
   padding: 179px 0;
   background-image: url("../images/formBg.png");
   background-size: cover;
 }
-/* line 415, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003415}}
+/* line 413, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003413}}
 .order hr {
   height: 6px;
   width: 81px;
   background: url(../images/hr.png) repeat-x 0 0;
   border: 0;
 }
-/* line 418, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003418}}
+/* line 416, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003416}}
 .order h4 {
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   padding: 25px 0 10px;
   letter-spacing: 1px;
 }
-/* line 424, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003424}}
+/* line 422, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003422}}
 .order p {
   font-family: 'Open Sans', sans-serif;
   color: #9daeb6;
@@ -558,15 +562,15 @@ header .call {
   padding-bottom: 15px;
   font-size: 15px;
 }
-/* line 432, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003432}}
+/* line 430, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003430}}
 .order form .name {
   border: none;
   padding: 10px 15px;
   float: left;
 }
-/* line 437, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003437}}
+/* line 435, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003435}}
 .order form .phone {
   border-radius: 0 4px 4px 0;
   border: none;
@@ -574,8 +578,8 @@ header .call {
   display: block;
   float: left;
 }
-/* line 444, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003444}}
+/* line 442, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003442}}
 .order form .submit {
   text-transform: uppercase;
   border: none;
@@ -584,21 +588,26 @@ header .call {
   background-color: #36aeea;
   cursor: pointer;
 }
-/* line 452, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003452}}
+/* line 450, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003450}}
 .order form i {
   color: #36aeea;
   margin-top: 20px;
   margin-right: 15px;
 }
-/* line 457, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003457}}
+/* line 455, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003455}}
 .order form span {
   color: #36aeea;
   font-size: 14px;
 }
 /* line 464, style.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003464}}
+.scheme {
+  position: relative;
+}
+/* line 466, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003466}}
 .scheme hr {
   height: 6px;
   width: 81px;
@@ -606,37 +615,27 @@ header .call {
   border: 0;
   margin: 30px 405px;
 }
-/* line 468, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003468}}
+/* line 470, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003470}}
+.scheme h1 {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-bottom: 60px;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+/* line 473, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003473}}
 .scheme h3 {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-}
-/* line 477, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003477}}
-.scheme {
-  position: relative;
 }
 /* line 479, style.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003479}}
-.scheme hr {
-  height: 6px;
-  width: 81px;
-  background: url(../images/hr.png) repeat-x 0 0;
-  border: 0;
-}
-/* line 482, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003482}}
-.scheme h3 {
-  text-align: center;
-  font-family: 'Open Sans', sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-}
-/* line 488, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003488}}
 .scheme .dashedLine {
   z-index: -1;
   width: 681px;
@@ -644,16 +643,16 @@ header .call {
   padding: 20px;
   margin: 10px;
   position: absolute;
-  top: 100px;
-  left: 590px;
+  top: 177px;
+  left: 592px;
   background-image: -webkit-gradient(linear, left top, right top, color-stop(90%, #f0f3f6), color-stop(50%, transparent)), none, -webkit-gradient(linear, left top, left bottom, color-stop(90%, #f0f3f6), color-stop(50%, transparent)), none;
   background-image: linear-gradient(to right, #f0f3f6 90%, transparent 50%), none, linear-gradient(to bottom, #f0f3f6 90%, transparent 50%), none;
   background-position: left top, left bottom, left top, right top;
   background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
   background-size: 60px 2px, 0px 0px, 2px 60px, 0px 0px;
 }
-/* line 503, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003503}}
+/* line 494, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003494}}
 .scheme ul {
   counter-reset: scheme-count;
   display: -webkit-box;
@@ -664,14 +663,14 @@ header .call {
   -ms-flex-pack: justify;
   justify-content: space-between;
 }
-/* line 512, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003512}}
+/* line 503, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003503}}
 .scheme ul li {
   display: inline;
-  max-width: 200px;
+  max-width: 185px;
 }
-/* line 516, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003516}}
+/* line 507, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003507}}
 .scheme ul li:before {
   z-index: 1;
   counter-increment: scheme-count;
@@ -696,8 +695,8 @@ header .call {
   margin-bottom: 58px;
   background-color: #ffffff;
 }
-/* line 540, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003540}}
+/* line 531, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003531}}
 .scheme ul li p {
   font-size: 14px;
   text-align: center;
@@ -705,21 +704,22 @@ header .call {
   font-family: 'Roboto', sans-serif;
   padding: 27px 0 40px;
 }
-/* line 546, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003546}}
+/* line 537, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003537}}
 .scheme ul li p span {
   font-weight: 700;
   color: #000000;
 }
-/* line 554, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003554}}
+/* line 545, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003545}}
 .travelWithUs {
   background-image: url("../images/travelWithUsBg.png");
   background-size: cover;
   background-repeat: no-repeat;
+  padding-bottom: 279px;
 }
-/* line 558, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003558}}
+/* line 550, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003550}}
 .travelWithUs hr {
   height: 6px;
   width: 81px;
@@ -728,17 +728,19 @@ header .call {
   margin-left: 906px;
   padding-top: 30px;
 }
-/* line 563, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003563}}
-.travelWithUs h3 {
+/* line 555, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003555}}
+.travelWithUs h1 {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  padding-bottom: 34px;
+  padding-bottom: 60px;
+  font-size: 30px;
+  letter-spacing: 2px;
 }
-/* line 570, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003570}}
+/* line 558, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003558}}
 .travelWithUs .travelWrapper {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -751,94 +753,301 @@ header .call {
   margin: 0 auto;
   width: 1140px;
 }
-/* line 576, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003576}}
+/* line 564, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003564}}
 .travelWithUs .travelWrapper h4 {
   text-transform: capitalize;
   color: #ffffff;
+  padding-top: 115px;
+  font-size: 28px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
 }
-/* line 580, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003580}}
+/* line 572, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003572}}
 .travelWithUs .travelWrapper i {
   color: #ffffff;
+  font-size: 23px;
 }
-/* line 583, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003583}}
+/* line 576, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003576}}
 .travelWithUs .travelWrapper p {
   color: #ffffff;
+  font-size: 17px;
+  font-family: 'Lato', sans-serif;
 }
-/* line 586, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003586}}
+/* line 581, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003581}}
 .travelWithUs .travelWrapper span.left {
   float: left;
+  text-decoration: line-through;
+  color: #ffffff;
+  font-family: 'Lato', sans-serif;
+  padding-top: 109px;
+  font-size: 20px;
 }
 /* line 589, style.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003589}}
 .travelWithUs .travelWrapper span.right {
   float: right;
+  color: #ffffff;
+  font-family: 'Lato', sans-serif;
+  padding-top: 106px;
+  font-weight: 700;
+  font-size: 25px;
 }
-/* line 592, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003592}}
+/* line 597, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003597}}
 .travelWithUs .travelWrapper .carpathian {
   background-image: url("../images/carpathianBg.png");
   background-size: cover;
   margin: 10px 10px;
   width: 200px;
-  height: 380px;
+  padding: 20px;
+  border-radius: 5px;
 }
-/* line 599, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003599}}
+/* line 601, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003601}}
 .travelWithUs .travelWrapper .alps {
-  background-image: url("../images/alpsBg.png");
   background-size: cover;
   margin: 10px 10px;
   width: 200px;
-  height: 380px;
+  padding: 20px;
+  border-radius: 5px;
+  background-image: url("../images/alpsBg.png");
 }
-/* line 606, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003606}}
+/* line 605, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003605}}
 .travelWithUs .travelWrapper .pyrenees {
   background-image: url("../images/pyreneesBg.png");
   background-size: cover;
   margin: 10px 10px;
   width: 200px;
-  height: 380px;
+  padding: 20px;
+  border-radius: 5px;
 }
-/* line 613, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003613}}
+/* line 610, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003610}}
 .travelWithUs .travelWrapper .rocky {
   background-image: url("../images/rockyBg.png");
   background-size: cover;
   margin: 10px 10px;
   width: 200px;
-  height: 380px;
+  padding: 20px;
+  border-radius: 5px;
 }
-/* line 620, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003620}}
+/* line 614, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003614}}
 .travelWithUs .travelWrapper .kavkaz {
   background-image: url("../images/kavkazBg.png");
   background-size: cover;
   margin: 10px 10px;
   width: 200px;
-  height: 380px;
+  padding: 20px;
+  border-radius: 5px;
+}
+/* line 620, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003620}}
+.gallery {
+  margin-bottom: 715px;
+  width: 100%;
+}
+/* line 622, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003622}}
+.gallery hr {
+  height: 6px;
+  width: 81px;
+  background: url(../images/hr.png) repeat-x 0 0;
+  border: 0;
+  margin-left: 909px;
+  padding-top: 35px;
+  margin-top: 50px;
+}
+/* line 628, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003628}}
+.gallery h1 {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-bottom: 60px;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+/* line 632, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003632}}
+.gallery .galleryWrapper {
+  width: 1140px;
+  margin: 0 auto;
+}
+/* line 635, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003635}}
+.gallery .galleryWrapper img {
+  display: block;
+  float: left;
+  padding: 8px;
+}
+/* line 640, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003640}}
+.gallery .galleryWrapper .image {
+  margin-top: -100px;
+}
+/* line 645, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003645}}
+.logoBar {
+  background-color: #f8f9fa;
+}
+/* line 647, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003647}}
+.logoBar .logobarWrapper {
+  width: 1220px;
+  margin: 0 auto;
+}
+/* line 651, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003651}}
+.logoBar img {
+  padding: 64px;
+}
+/* line 655, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003655}}
+footer {
+  background-image: url("../images/footerBg.png");
+}
+/* line 657, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003657}}
+footer .footerWrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* line 660, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003660}}
+footer .footerWrapper hr {
+  height: 6px;
+  width: 81px;
+  background: url(../images/hr.png) repeat-x 0 0;
+  border: 0;
+  margin-left: 564px;
+  padding-top: 35px;
+  margin-top: 100px;
+}
+/* line 666, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003666}}
+footer .footerWrapper .reviewsTitle {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-bottom: 60px;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+/* line 669, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003669}}
+footer .footerWrapper .reviews {
+  padding-bottom: 143px;
+}
+/* line 671, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003671}}
+footer .footerWrapper .reviews i {
+  color: #9daeb6;
+}
+/* line 674, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003674}}
+footer .footerWrapper .reviews p {
+  text-align: justify;
+  font-family: 'Open Sans', sans-serif;
+  color: #9daeb6;
+  margin-bottom: 33px;
+}
+/* line 683, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003683}}
+footer .footerWrapper .reviews span {
+  padding-top: 25px;
+  color: #36aeea;
+}
+/* line 687, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003687}}
+footer .footerWrapper .reviews span .position {
+  font-weight: 700;
+}
+/* line 691, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003691}}
+footer .footerWrapper .reviews .name {
+  margin-left: 20px;
+}
+/* line 695, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003695}}
+footer .footerWrapper .reviews .left {
+  padding: 0px 90px;
+}
+/* line 702, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003702}}
+footer .footerWrapper .formWrapper {
+  width: 39%;
+  margin-left: 331px;
+}
+/* line 705, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003705}}
+footer .footerWrapper .formWrapper .contact {
+  border-radius: 7px;
+  background-image: url("../images/callback-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+/* line 713, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003713}}
+footer .footerWrapper .formWrapper .contact .contactTitle {
+  padding: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #36aeea;
+}
+/* line 719, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003719}}
+footer .footerWrapper .formWrapper .contact span {
+  padding-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  display: block;
+}
+/* line 725, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003725}}
+footer .footerWrapper .formWrapper .contact input {
+  width: 86%;
+  font-family: 'Open Sans', sans-serif;
+  padding: 14px;
+  margin-bottom: 35px;
+  border-radius: 6px;
+  font-size: 18px;
+  border: none;
+}
+/* line 734, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003734}}
+footer .footerWrapper .formWrapper .contact .send {
+  text-transform: uppercase;
+  background-color: #36aeea;
+  cursor: pointer;
 }
 @media screen and (max-width: 1920px) {
-  /* line 633, style.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003633}}
+  /* line 746, style.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003746}}
   .top {
     background-size: cover;
     width: 100%;
     background-image: url("../images/headerBg.png");
   }
-  /* line 637, style.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003637}}
+  /* line 750, style.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003750}}
   .top .travel {
     position: relative;
     margin: 287px -47px 214px;
     display: inline-block;
   }
-  /* line 641, style.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003641}}
+  /* line 754, style.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003754}}
   .top .travel h2 {
     text-transform: uppercase;
     color: #ffffff;
@@ -846,8 +1055,8 @@ header .call {
     font-size: 35px;
     letter-spacing: 2px;
   }
-  /* line 647, style.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003647}}
+  /* line 760, style.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003760}}
   .top .travel h2 span {
     position: absolute;
     color: #56c7ff;
@@ -855,16 +1064,16 @@ header .call {
     font-family: 'Leckerli One', cursive;
     bottom: 104px;
   }
-  /* line 655, style.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003655}}
+  /* line 768, style.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003768}}
   .top .travel p {
     color: #9daeb6;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     padding-top: 20px;
   }
-  /* line 661, style.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003661}}
+  /* line 774, style.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003774}}
   .top .travel a {
     color: #ffffff;
     border: 1px solid #56c7ff;
@@ -877,31 +1086,31 @@ header .call {
     font-size: 12px;
     font-family: 'Open Sans', sans-serif;
   }
-  /* line 676, style.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003676}}
+  /* line 789, style.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003789}}
   .order {
     padding: 179px 0;
     background-image: url("../images/formBg.png");
     background-size: cover;
   }
-  /* line 680, style.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003680}}
+  /* line 793, style.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003793}}
   .order hr {
     height: 6px;
     width: 81px;
     background: url(../images/hr.png) repeat-x 0 0;
     border: 0;
   }
-  /* line 683, style.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003683}}
+  /* line 796, style.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003796}}
   .order h4 {
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     padding: 25px 0 10px;
     letter-spacing: 1px;
   }
-  /* line 689, style.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003689}}
+  /* line 802, style.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003802}}
   .order p {
     font-family: 'Open Sans', sans-serif;
     color: #9daeb6;
@@ -909,21 +1118,21 @@ header .call {
     padding-bottom: 15px;
     font-size: 15px;
   }
-  /* line 696, style.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003696}}
+  /* line 809, style.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003809}}
   .order form {
     position: relative;
     padding-bottom: 36px;
   }
-  /* line 699, style.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003699}}
+  /* line 812, style.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003812}}
   .order form .name {
     border: none;
     padding: 10px 15px;
     float: left;
   }
-  /* line 704, style.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003704}}
+  /* line 817, style.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003817}}
   .order form .phone {
     border-radius: 0 4px 4px 0;
     border: none;
@@ -932,8 +1141,8 @@ header .call {
     float: left;
     padding-right: 113px;
   }
-  /* line 712, style.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003712}}
+  /* line 825, style.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003825}}
   .order form .submit {
     position: absolute;
     text-transform: uppercase;
@@ -950,15 +1159,15 @@ header .call {
     letter-spacing: 1px;
     font-family: 'Open Sans', sans-serif;
   }
-  /* line 729, style.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003729}}
+  /* line 842, style.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003842}}
   .order i {
     color: #36aeea;
     margin-top: 20px;
     margin-right: 15px;
   }
-  /* line 734, style.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003734}}
+  /* line 847, style.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/LI\/WebstormProjects\/mountains\/style\/style\.less}line{font-family:\00003847}}
   .order span {
     color: #36aeea;
     font-size: 14px;
