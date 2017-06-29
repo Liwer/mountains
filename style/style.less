@@ -624,9 +624,6 @@ footer {
         color: @grey;
         margin-bottom: 33px;
       }
-      img {
-        //float: left;
-      }
       span {
 
         padding-top: 25px;
@@ -723,139 +720,31 @@ footer {
 
 @media screen and (max-width: 1366px) {
   .top {
-    background-size: cover;
-    width: 100%;
-    background-image: url("../images/headerBg.png");
     .travel {
       padding: 3px 20px;
       width: 700px;
       margin: 161px 100px 83px;
-      display: inline-block;
-      h2 {
-        text-transform: uppercase;
-        color: @white;
-        font-family: @openSans;
-        font-size: 35px;
-        letter-spacing: 2px;
-        span {
-          color: @liteBlue;
-          text-transform: none;
-          font-family: @Leckerli;
-        }
-      }
-      p {
-        color: @grey;
-        font-family: @openSans;
-        font-size: 14px;
-      }
-      a {
-        color: @white;
-        border: 1px solid @liteBlue;
-        padding: 10px 40px;
-        display: inline-block;
-        margin-top: 15px;
-        background-color: @liteBlue;
-        border-radius: 2px;
-        text-transform: uppercase;
-        font-size: 12px;
-        font-family: @openSans;
-      }
     }
   }
 
   .scheme {
-    position: relative;
     hr {
-      .hr;
       margin: 30px 405px;
     }
-    h1 {
-      .title;
-    }
-    h3 {
-      text-align: center;
-      font-family: 'Open Sans', sans-serif;
-      text-transform: uppercase;
-      font-weight: 700;
-    }
     .dashedLine {
-      z-index: -1;
-      width: 681px;
-      height: 119px;
-      padding: 20px;
-      margin: 10px;
-      position: absolute;
       top: 177px;
       left: 291px;
-      background-image: -webkit-linear-gradient(left, #F0F3F6 90%, transparent 50%), none, -webkit-linear-gradient(top, #F0F3F6 90%, transparent 50%), none;
-      background-image: linear-gradient(to right, #F0F3F6 90%, transparent 50%), none, linear-gradient(to bottom, #F0F3F6 90%, transparent 50%), none;
-      background-position: left top, left bottom, left top, right top;
-      background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
-      background-size: 60px 2px, 0px 0px, 2px 60px, 0px 0px;
-    }
-    ul {
-      counter-reset: scheme-count;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      padding: 25px 10px 0 10px;
-      -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-      justify-content: space-between;
-      li {
-        display: inline;
-        max-width: 185px;
-
-        &:before {
-          z-index: 1;
-          counter-increment: scheme-count;
-          width: 28px;
-          height: 30px;
-          border-radius: 50px;
-          border-style: solid;
-          border-width: 3px;
-          border-color: @blue;
-          content: counter(scheme-count);
-          font-family: @roboto;
-          font-weight: 900;
-          font-style: normal;
-          font-size: 16px;
-          color: @blue;
-          display: block;
-          margin: auto;
-          padding-top: 14px;
-          padding-left: 18px;
-          top: -27px;
-          left: calc(25%);
-          margin-bottom: 58px;
-          background-color: @white;
-        }
-        p {
-          font-size: 14px;
-          text-align: center;
-          color: @grey;
-          font-family: @roboto;
-          padding: 27px 0 40px;
-          span {
-            font-weight: 700;
-            color: @black;
-          }
-        }
-      }
     }
   }
   .travelWithUs {
     hr {
-      .hr;
       margin-left: 606px;
     }
   }
   .gallery {
     hr {
-      .hr;
       margin-left: 604px;
       padding-bottom: 20px;
-      margin-top: 50px;
     }
   }
 }
